@@ -1,0 +1,148 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#timer {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  background: radial-gradient(circle, #ffbf00, #ff6b6b); /* Radial gradient resembling the sun */
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  box-shadow: 0px 0px 20px rgba(255, 191, 0, 0.5); /* Yellowish shadow */
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#startButton {
+  background: linear-gradient(45deg, #2af598, #14c9cb); /* Gradient from orange to pink */
+}
+
+#resetButton {
+  background: linear-gradient(45deg, #2af598, #14c9cb); /* Gradient from red to pink */
+}
+
+button:hover {
+  filter: brightness(1.1); /* Brighten the button on hover */
+}
+
+button:active {
+  filter: brightness(0.9); /* Darken the button on click */
+}
+
+#themeToggle{
+  background: linear-gradient(45deg, #fba850, #5c80f6);
+}
+
+/* Day theme */
+.day-theme #timer {
+  background: radial-gradient(circle, #ffbf00, #ff6b6b);
+  box-shadow: 0px 0px 20px rgba(255, 191, 0, 0.5);
+}
+
+
+.day-theme #startButton {
+  background: linear-gradient(45deg, #ff8a00, #e52e71);
+}
+
+.day-theme #resetButton {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+}
+
+/* Night theme */
+.night-theme #timer {
+  background: radial-gradient(circle, #7a7a7a, #060310);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.night-theme #startButton {
+  background: linear-gradient(45deg, #323269, #170aa2);
+}
+
+.night-theme #resetButton {
+  background: linear-gradient(45deg, #323269, #170aa2);
+}
+
+/* Add styles for the to-do list section */
+/* Update the styles for the to-do list section */
+/* Update the styles for the to-do list based on the active theme */
+.night-theme {
+  background: linear-gradient(45deg, #636370, #424270);/* Set the background color for the day theme */
+}
+
+.day-theme #todoList {
+  color: #000;
+}
+
+.night-theme #todoList {
+ /* background-color: ; */
+  color: #000000;
+}
+
+/* Update the styling for the "add new task" input box */
+#taskInput {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff; /* Set default background color */
+  color: #333; /* Set default text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Adjust background and text color for day theme */
+.day-theme #taskInput {
+  background-color: #f0f0f0;
+  color: #ad8214;
+}
+
+/* Adjust background and text color for night theme */
+.night-theme #taskInput {
+  background-color: #444444;
+  color: #685ead;
+}
+
+#taskInput:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.day-theme #tasks label, .night-theme #tasks label {
+  color: #000;
+}
+
+.day-theme #tasks button, .night-theme #tasks button {
+  color: #fff;
+  background-color: #1a2056;
+}
+
+.day-theme #tasks button:hover, .night-theme #tasks button:hover {
+  background-color: #23285c;
+}
+
+.day-theme #tasks button:active, .night-theme #tasks button:active {
+  background-color: #261e41;
+}
+
