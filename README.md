@@ -18,5 +18,12 @@ Mark tasks as completed by checking the checkbox next to each task.
 Remove tasks from the list by clicking the "Remove" button next to each task.
 Toggle between day and night themes using the "Toggle Theme" button for a personalized experience.
 
+### Demo
+
+![pomogif](https://github.com/agc6/Pomodoro-To-Do/assets/160443693/a4e10e47-73fc-4d29-a6a6-d9947654cb92)
+
+
+
+
 ### Technologies Used
 HTML, CSS, JavaScript
