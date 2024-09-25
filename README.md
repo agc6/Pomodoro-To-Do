@@ -1,5 +1,5 @@
 # Pomodoro Timer with To-Do List
-Description
+### Description
 This project is a web-based Pomodoro Timer with an integrated To-Do List, designed to help users manage their time effectively while staying organized with their tasks. The Pomodoro Technique is a time management method that involves working for 25 minutes followed by a 5-minute break, and this application facilitates that process. Additionally, users can add, remove, and mark tasks as completed within the To-Do List feature.
 
 ### Accessible here:
